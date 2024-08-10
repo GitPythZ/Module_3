@@ -14,19 +14,18 @@ def send_email(message, recipient, *, sender="uversity.help@gmail.com"): # "send
         print(f"НЕСТАНДАРТНЫЙ ОТПРАВИТЕЛЬ! Письмо отправлено с адреса {sender} на адрес {recipient}.")
     if sender == recipient:
         print(f"Нельзя отправить письмо самому себе!")
-        return
-    if recipient.endswith((".ru", ".com", ".net")) and sender.endswith((".ru", ".com", ".net")) \
-            and "@" in recipient and "@" in sender:
-        return
-    else:
+    if not recipient.endswith((".ru", ".com", ".net")) and not sender.endswith((".ru", ".com", ".net")) \
+            and "@" not in recipient and "@" not in sender:
         print(f"Невозможно отправить письмо с адреса {sender} на адрес {recipient}.")
+    else:
+        print(f"Письмо успешно отправлено с адреса {sender} на адрес {recipient}.")
 
 
-send_email("Доброго времени суток, поступил в ваше распоряжение, письмо для проверки связи",
-           "nanatoliy26@gmail.com")
-send_email("Доброго времени суток, поступил в ваше распоряжение, письмо для проверки связи",
-           "nanatoliy26@gmail.com", sender="urban.info@gmail.com")
-send_email("Доброго времени суток, поступил в ваше распоряжение, письмо для проверки связи",
-           "urban.student@mail.ru", sender="urban.teacher@mail.uk'")
-send_email("Доброго времени суток, поступил в ваше распоряжение, письмо для проверки связи",
-           "uversity.help@gmail.com")
+send_email("Это сообщение для проверки связи",
+           "vasyok1337@gmail.com") # Письмо успешно отправлено с адреса university.help@gmail.com на адрес vasyok1337@gmail.com
+send_email("Вы видите это сообщение как лучший студент курса!",
+           "urban.fan@mail.ru'", sender="urban.info@gmail.com") # НЕСТАНДАРТНЫЙ ОТПРАВИТЕЛЬ! Письмо отправлено с адреса urban.info@gmail.com на адрес urban.fan@mail.ru
+send_email("Пожалуйста, исправьте задание",
+           "urban.student@mail.ru", sender="urban.teacher@mail.uk'") # Невозможно отправить письмо с адреса urban.teacher@mail.uk на адрес urban.student@mail.ru
+send_email("Напоминаю самому себе о вебинаре",
+           "urban.teacher@mail.ru", sender="urban.teacher@mail.ru") # Нельзя отправить письмо самому себе!

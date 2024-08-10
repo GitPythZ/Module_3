@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecc2e186-e463-4e0f-bffa-8d2e0f804171" name="Changes" comment="Задание по рекурсии">
+    <list default="true" id="ecc2e186-e463-4e0f-bffa-8d2e0f804171" name="Changes" comment="внесены правки по игнорированию регистра аргумента">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module_3_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/module_3_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_3_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/module_3_2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,15 +44,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.Recursion.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_3_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_3_5.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Recursion.executor": "Run",
+    "Python.module_3_1.executor": "Run",
+    "Python.module_3_2.executor": "Run",
+    "Python.module_3_3.executor": "Run",
+    "Python.module_3_5.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -141,7 +143,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723316873607</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="внесены правки по игнорированию регистра аргумента">
+      <option name="closed" value="true" />
+      <created>1723318844961</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1723318844961</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -152,6 +162,7 @@
     <MESSAGE value="Лекции по функциям" />
     <MESSAGE value="Синтаксис" />
     <MESSAGE value="Задание по рекурсии" />
-    <option name="LAST_COMMIT_MESSAGE" value="Задание по рекурсии" />
+    <MESSAGE value="внесены правки по игнорированию регистра аргумента" />
+    <option name="LAST_COMMIT_MESSAGE" value="внесены правки по игнорированию регистра аргумента" />
   </component>
 </project>
