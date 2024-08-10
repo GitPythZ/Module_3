@@ -18,7 +18,8 @@ def string_info(string):
 
 def is_contains(string, list_to_search):
     count_calls()
-    if string in list_to_search:
+    list_to_search = [x.capitalize() for x in list_to_search]
+    if string.capitalize() in list_to_search:
         return True
     else:
         return False
@@ -26,6 +27,6 @@ def is_contains(string, list_to_search):
 
 print(string_info("Учеба_на_Питоне"))
 print(string_info("Capybara"))
-print(is_contains("Moscow", ["New York", "Moscow", "Odessa", "London"]))
-print(is_contains("Moscow", ["Pekin", "Rome", "London", "Paris"]))
+print(is_contains("moscow", ["New York", "Moscow", "Odessa", "London"]))
+print(is_contains("moscow", ["Pekin", "rome", "London", "paris"]))
 print(calls)
