@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecc2e186-e463-4e0f-bffa-8d2e0f804171" name="Changes" comment="Пока не нашел решение">
+    <list default="true" id="ecc2e186-e463-4e0f-bffa-8d2e0f804171" name="Changes" comment="Почему-то отправляет писмммо, несмотря на ошибки в адресе почты.">
+      <change afterPath="$PROJECT_DIR$/LectionsModule_3/Builtinfunction.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LectionsModule_3/def.py" beforeDir="false" afterPath="$PROJECT_DIR$/LectionsModule_3/def.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module_3_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/module_3_2.py" afterDir="false" />
@@ -47,6 +48,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.Builtinfunction.executor": "Run",
     "Python.Recursion.executor": "Run",
     "Python.def.executor": "Run",
     "Python.funcwithdifferentparam.executor": "Run",
@@ -162,7 +164,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723320713055</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Почему-то отправляет писмммо, несмотря на ошибки в адресе почты.">
+      <option name="closed" value="true" />
+      <created>1723401326420</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1723401326420</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -175,6 +185,28 @@
     <MESSAGE value="Задание по рекурсии" />
     <MESSAGE value="внесены правки по игнорированию регистра аргумента" />
     <MESSAGE value="Пока не нашел решение" />
-    <option name="LAST_COMMIT_MESSAGE" value="Пока не нашел решение" />
+    <MESSAGE value="Почему-то отправляет писмммо, несмотря на ошибки в адресе почты." />
+    <option name="LAST_COMMIT_MESSAGE" value="Почему-то отправляет писмммо, несмотря на ошибки в адресе почты." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/LectionsModule_3/def.py</url>
+          <line>61</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/module_3_2.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="sender" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

@@ -50,3 +50,16 @@ test(*[1,2])
 # Если без "*", то заменит первый параметр
 
 
+def foo():
+    return total + 1
+
+
+total = 0
+print(foo())
+
+
+email_ = "abc@mail.ru"
+if not email_.endswith(".ru"):
+    print(email_)
+else:
+    print("Недопустимый символ в строке!")
