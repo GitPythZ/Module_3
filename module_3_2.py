@@ -8,21 +8,19 @@
 def send_email(message, recipient, *, sender="uversity.help@gmail.com"): # "sender" помечен как именованный параметр.
     """Создал функцию с двумя обычными аргументами и одним именованным"""
     # Проверка наличия ключевых символов перед отправкой письма.
-    if sender == "uversity.help@gmail.com":
-        print(f"Письмо успешно отправлено с адреса {sender} на адрес {recipient}")
-    else:
-        print(f"НЕСТАНДАРТНЫЙ ОТПРАВИТЕЛЬ! Письмо отправлено с адреса {sender} на адрес {recipient}.")
-    if sender == recipient:
-        print(f"Нельзя отправить письмо самому себе!")
     if not recipient.endswith((".ru", ".com", ".net")) and not sender.endswith((".ru", ".com", ".net")) \
             and "@" not in recipient and "@" not in sender:
         print(f"Невозможно отправить письмо с адреса {sender} на адрес {recipient}.")
-    else:
-        print(f"Письмо успешно отправлено с адреса {sender} на адрес {recipient}.")
+    elif sender == recipient:
+        print(f"Нельзя отправить письмо самому себе!")
+    elif sender == "uversity.help@gmail.com":
+        print(f"Письмо успешно отправлено с адреса {sender} на адрес {recipient}")
+    elif sender != "uversity.help@gmail.com":
+        print(f"НЕСТАНДАРТНЫЙ ОТПРАВИТЕЛЬ! Письмо отправлено с адреса {sender} на адрес {recipient}.")
 
 
 send_email("Это сообщение для проверки связи",
-           "vasyok1337@gmail.com") # Письмо успешно отправлено с адреса university.help@gmail.com на адрес vasyok1337@gmail.com
+           "vasyok1337gmail.com") # Письмо успешно отправлено с адреса university.help@gmail.com на адрес vasyok1337@gmail.com
 send_email("Вы видите это сообщение как лучший студент курса!",
            "urban.fan@mail.ru'", sender="urban.info@gmail.com") # НЕСТАНДАРТНЫЙ ОТПРАВИТЕЛЬ! Письмо отправлено с адреса urban.info@gmail.com на адрес urban.fan@mail.ru
 send_email("Пожалуйста, исправьте задание",

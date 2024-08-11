@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecc2e186-e463-4e0f-bffa-8d2e0f804171" name="Changes" comment="внесены правки по игнорированию регистра аргумента">
+    <list default="true" id="ecc2e186-e463-4e0f-bffa-8d2e0f804171" name="Changes" comment="Пока не нашел решение">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LectionsModule_3/def.py" beforeDir="false" afterPath="$PROJECT_DIR$/LectionsModule_3/def.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module_3_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/module_3_2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,6 +48,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.Recursion.executor": "Run",
+    "Python.def.executor": "Run",
+    "Python.funcwithdifferentparam.executor": "Run",
     "Python.module_3_1.executor": "Run",
     "Python.module_3_2.executor": "Run",
     "Python.module_3_3.executor": "Run",
@@ -151,7 +154,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723318844961</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Пока не нашел решение">
+      <option name="closed" value="true" />
+      <created>1723320713055</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1723320713055</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -163,6 +174,7 @@
     <MESSAGE value="Синтаксис" />
     <MESSAGE value="Задание по рекурсии" />
     <MESSAGE value="внесены правки по игнорированию регистра аргумента" />
-    <option name="LAST_COMMIT_MESSAGE" value="внесены правки по игнорированию регистра аргумента" />
+    <MESSAGE value="Пока не нашел решение" />
+    <option name="LAST_COMMIT_MESSAGE" value="Пока не нашел решение" />
   </component>
 </project>
