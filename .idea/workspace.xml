@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecc2e186-e463-4e0f-bffa-8d2e0f804171" name="Changes" comment="Почему-то отправляет писмммо, несмотря на ошибки в адресе почты.">
-      <change afterPath="$PROJECT_DIR$/LectionsModule_3/Builtinfunction.py" afterDir="false" />
+    <list default="true" id="ecc2e186-e463-4e0f-bffa-8d2e0f804171" name="Changes" comment="абота с циклами в функции">
+      <change afterPath="$PROJECT_DIR$/LectionsModule_3/calc1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LectionsModule_3/isinstance.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_3_hard.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LectionsModule_3/def.py" beforeDir="false" afterPath="$PROJECT_DIR$/LectionsModule_3/def.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module_3_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/module_3_2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,20 +46,53 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.Builtinfunction.executor": "Run",
-    "Python.Recursion.executor": "Run",
-    "Python.def.executor": "Run",
-    "Python.funcwithdifferentparam.executor": "Run",
-    "Python.module_3_1.executor": "Run",
-    "Python.module_3_2.executor": "Run",
-    "Python.module_3_3.executor": "Run",
-    "Python.module_3_5.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Builtinfunction.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Recursion.executor&quot;: &quot;Run&quot;,
+    &quot;Python.calc1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.def.executor&quot;: &quot;Run&quot;,
+    &quot;Python.function_pract_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.funcwithdifferentparam.executor&quot;: &quot;Run&quot;,
+    &quot;Python.isinstance.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_3_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_3_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_3_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_3_5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_3_hard.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager">
+    <configuration name="calc1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Module_3" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LectionsModule_3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LectionsModule_3/calc1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.calc1" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -172,7 +205,23 @@
       <option name="project" value="LOCAL" />
       <updated>1723401326420</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Внес исправления">
+      <option name="closed" value="true" />
+      <created>1723406809834</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1723406809834</updated>
+    </task>
+    <task id="LOCAL-00014" summary="абота с циклами в функции">
+      <option name="closed" value="true" />
+      <created>1723544283850</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1723544283850</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -186,7 +235,9 @@
     <MESSAGE value="внесены правки по игнорированию регистра аргумента" />
     <MESSAGE value="Пока не нашел решение" />
     <MESSAGE value="Почему-то отправляет писмммо, несмотря на ошибки в адресе почты." />
-    <option name="LAST_COMMIT_MESSAGE" value="Почему-то отправляет писмммо, несмотря на ошибки в адресе почты." />
+    <MESSAGE value="Внес исправления" />
+    <MESSAGE value="абота с циклами в функции" />
+    <option name="LAST_COMMIT_MESSAGE" value="абота с циклами в функции" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
